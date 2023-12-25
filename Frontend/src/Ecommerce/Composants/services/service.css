@@ -1,0 +1,30 @@
+/* SERVICES */
+
+.custom-card {
+    transition: box-shadow 0.3s ease;
+   width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .card-body span{
+   opacity: 0.7;
+   
+  }
+ 
+  .custom-card:hover {
+      cursor:pointer;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+  }
+  #title{
+      color:white;
+  }
+ 
+  @media (max-width: 576px) {
+    
+    
+      #service{
+        margin-left: 10px;
+      }
+     
+  
+      }

@@ -1,0 +1,138 @@
+
+/* 
+  ListeProducts */
+
+
+  .image-hover {
+    transition: transform 0.2s, opacity 0.2s, box-shadow 0.2s;
+}
+
+.image-hover:hover {
+    transform: scale(95%); 
+    opacity: 0.6; 
+}
+
+.icon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.5s;
+}
+
+.card:hover .icon-overlay {
+    opacity: 0.8; 
+    
+}
+
+.icon-overlay i {
+    position: relative;
+    bottom:1px;
+    left:33px;
+    font-size: 38px; 
+    color: black; 
+    background-color: white; 
+    border-radius: 50%; 
+    padding:13px;
+    cursor: pointer;
+}
+.icon-overlay i:hover{
+  background-color:rgb(123, 31, 162);
+  color:white;
+  transform: scale(110%); 
+  
+}
+#parent >.card{
+   
+    border-radius:12px;
+ width: 14rem; 
+ height: 19rem; 
+ border-radius: 10px;
+}
+#parent >.card:hover{
+   
+    border-radius:12px;
+    box-shadow: 0 11px 7px 0 #C196E7;
+ width: 14rem; 
+ height: 19rem; 
+ border-radius: 10px;
+}
+
+  
+  .pagination-buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pagination-button {
+    padding: 8px 14px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    color: rgb(123, 31, 162);
+    cursor: pointer;
+    outline: none;
+    height: 43px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background-color: rgb(123, 31, 162);
+    color: white;
+}
+
+.pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+    background-color: #e0e0e0;
+  }
+
+  .exulisev h3 {
+    color: rgb(123, 31, 162); 
+    text-align: center;
+    margin: 10px 0; 
+    letter-spacing: 1px; 
+  }
+
+  .exulisev p {
+    opacity: 0.8;
+    width: 500px;
+    margin-left: 300px;
+    text-align: center;
+}
+  .heart{
+    background-color: #C196E7;
+  }
+
+  #tabPaginate{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 0px 40px;
+    flex-wrap: wrap;
+
+  }
+
+  @media (max-width: 576px) {
+    #tabPaginate{
+      display: block;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+    .tabs {
+      margin-bottom: 30px; 
+      display: block;
+      justify-content: center;
+    }
+    .paginate {
+      display: block;
+      margin-left: 40px;
+    }
+    .exulisev p{
+     margin:10px 80px;
+     width: 260px;
+    }
+  }

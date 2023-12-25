@@ -1,0 +1,24 @@
+#previous {
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+  }
+  
+
+  #next {
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 7px;
+  }
+  

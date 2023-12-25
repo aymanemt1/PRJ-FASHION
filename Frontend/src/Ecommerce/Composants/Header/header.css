@@ -1,0 +1,285 @@
+.nav-link{
+  font-size: 17px;
+  font-weight: 450;
+  margin-right: 25px;
+  padding-top: 5px;
+  transition: all 0.7s ease;
+}
+.nav-link:hover{
+  color: rgb(123, 31, 162);
+  font-weight: 600;
+  
+}
+
+nav .active {
+  color: rgb(123, 31, 162);
+  font-weight: 600;
+ 
+}
+
+
+.disabled{
+  opacity: 0.1;
+}
+
+  .switch {
+    font-size: 12px;
+    margin: 9px 13px 0px 4px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(123, 31, 162);
+    transition: 4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.3em;
+    bottom: 0.3em;
+    background-color: rgb(123, 31, 162);
+    box-shadow: inset 2px -2px 0 1.8px #fff;
+    transition: .4s;
+    animation: anima1 0.3s linear;
+  }
+  
+  @keyframes anima1 {
+    0% {
+      transform: translateX(1.5em);
+    }
+  
+    80% {
+      transform: translateX(-0.3em);
+    }
+  
+    100% {
+      transform: translateX(0em);
+    }
+  }
+  
+  .switch input:checked + .slider:before {
+    background-color: yellow;
+    box-shadow: none;
+    transform: translateX(1.5em);
+    animation: anima 0.3s linear;
+  }
+  
+  @keyframes anima {
+    0% {
+      transform: translateX(0px)
+    }
+  
+    80% {
+      transform: translateX(1.6em)
+    }
+  
+    100% {
+      transform: translateX(1.4em)
+    }
+  }
+  
+  #isDark:hover{
+    color: rgb(123, 31, 162);
+  }
+
+#linkUser {
+  color: rgb(123, 31, 162);
+  padding: 9px 13px;
+  text-decoration: none;
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  transition: all 0.7s ease;
+}
+
+#linkUser:hover{
+  background-color: rgb(123, 31, 162);
+  
+  color: white;
+  width: 110px;
+  overflow: auto;
+
+}
+
+
+#linkUser:hover .link-show{
+  display: inline;
+}
+.link-show{
+  display: none;
+  padding-right: 3px;
+}
+
+.show {
+  display: block;
+}
+
+
+#leftbar{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  
+}
+#HeaderParent{
+  display: flex;
+  width: 100%;
+}
+
+#rightnav{
+  margin-top: 9px;
+}
+#linksIcons{
+  display: flex;
+  width: 200px;
+  list-style-type: none;
+
+}
+
+
+
+#linksbar{
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+}
+
+
+.menu-btn,.menu-icon {
+  display: none; 
+
+}
+
+.logo{
+margin:7px 0px 0px 90px
+}
+
+@media (max-width: 576px) {
+ 
+  .menu-btn {
+    display: block; 
+    font-size: 25px;
+    cursor: pointer;
+    
+  }
+  
+  .btnOpen{
+    position: relative;
+    top: 4px;
+    left: 30px;
+    padding: 3px 7px;
+    width: 44px;
+    height: 44px;
+  }
+
+ 
+#leftbar{
+  width: 100%;
+  display: block;
+}
+
+#rightnav{
+ margin: 0;
+ padding: 14px 15px 0px 0px;
+}
+#linksbar{
+  display: none;
+  width: 100%;
+  padding: 33px 0;
+  transition: all 0.3s ease;
+  
+}
+#linksbar .nav-link:hover{
+  color: rgb(123, 31, 162);
+  padding-left: 8px;
+  
+}
+
+#linksIcons{
+  display: flex;
+
+
+}
+.sticky {
+  /* Sticky & blur */
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  
+  /* Layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 50px;
+  background-color: rgba(238, 238, 238, 0.2);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.3);
+}
+
+#linksbar.show {
+  display: block;
+
+  animation: fadeIn 0.5s ease-in-out forwards; 
+
+}
+
+.nav-link{
+justify-content: center;
+text-align: left;
+margin-left: 44px;
+letter-spacing: 3px;
+padding-bottom: 3px; 
+font-size: 26px;
+}
+.logo{
+display: none;
+}
+#HeaderParent{
+  display: flex;
+  background-color: rgb(246, 247, 248);
+
+}
+
+.ScrolledStyle{
+ 
+  top: 10px !important;
+  left: 0px !important;
+  right: 0px !important;
+  width: 100% !important;
+  z-index: 999 !important;
+  background-color: rgb(246, 247, 248) !important;
+ 
+}
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* Adjust the starting position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Show at the normal position */
+  }
+}

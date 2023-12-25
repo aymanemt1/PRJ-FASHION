@@ -1,0 +1,70 @@
+#sectionInfos{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin:90px 10px 50px 30px
+}
+
+#sectionInfos div{
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 40px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#sectionInfos p{
+   width: 300px;
+   padding: 0px 8px;
+}
+#sectionInfos h3{
+  color: rebeccapurple;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#about{
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 55px;
+  width: 80%;
+}
+.leftAbout{
+  margin-left:104px
+}
+.leftAbout p{
+width:500px;
+ opacity: 0.8;
+ line-height:27px
+}
+
+
+@media (max-width: 576px) {
+  #sectionInfos{
+    display: block;
+    
+  }
+  #sectionInfos div{
+   margin-top: 30px;
+   width: 330px;
+   margin-left: 20px;
+  }
+
+  #imgAbout{
+    margin: 30px 5px 0px 5px;
+  }
+
+  #about{
+    display: block;
+  }
+  #about h3{
+text-align: center;
+  }
+  .leftAbout{
+    margin:0px 5px
+  }
+  .leftAbout p{
+width: 300px;
+margin-left: 10px;
+margin-right: 10px;
+  }
+ }

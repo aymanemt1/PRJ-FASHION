@@ -1,0 +1,78 @@
+
+#offres {
+   margin-top: 90px;
+   padding: 50px 0px;
+}
+  #offres p{
+    opacity: 0.8;
+    width: 680px;
+    margin-left: 280px;
+    text-align: center;
+}
+
+#offres h3 {
+    color: rgb(123, 31, 162); 
+    text-align: center;
+    letter-spacing: 1px; 
+   
+  }
+
+
+.countdown-message {
+  font-size: 30px; 
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(123, 31, 162); 
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+#bannerOffre{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#countDown h1{
+opacity:0.7;
+ font-size: 40px;
+  font-weight: bold;
+  margin-left:13px
+}
+
+#timers {
+  display: flex;
+ }
+
+@media (max-width: 576px) {
+#bannerOffre{
+  display: block;
+  
+}
+  #offres p{
+    width: 270px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#imageOffre img{
+width: 330px;
+margin-left: 40px;
+
+}
+#imageOffre{
+ display: block;
+
+}
+
+#timers {
+  display: block;
+   width: 190px;
+   text-align: center;
+   margin-left: 60px;
+  }
+
+  }
+

@@ -1,0 +1,152 @@
+
+#cart {
+    transition: box-shadow 0.3s ease;
+  opacity: 96%;
+  }
+  #cart-img:hover{
+    transition: box-shadow 0.3s ease;
+  
+  transform: scale(103%);
+  }
+  #monCart {
+    transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .image-hover {
+      transition: transform 0.2s, opacity 0.2s, box-shadow 0.2s;
+  }
+  
+  .image-hover:hover {
+      transform: scale(93%); 
+      opacity: 0.6; 
+  }
+
+  .btnCart{
+    margin-left: 24px;
+    border:1px solid rgb(123, 31, 162);
+    border-radius: 5px;
+    width: 170px;
+    color: rgb(123, 31, 162);
+    padding: 4px;
+}
+  .btnCart:hover{
+    background-color: rgb(123, 31, 162);
+    color: white;
+    
+}
+.btnCartHidden {
+  margin-left: 24px;
+  border: 1px solid rgb(123, 31, 162);
+  border-radius: 5px;
+  width: 170px;
+  color: rgb(123, 31, 162);
+  padding: 4px;
+  opacity: 0.3; 
+ 
+}
+
+
+#avatar{
+  border-radius: 50%;
+  margin: 2px 25px 4px 13px;
+  width: 77px;
+  height: 77px;
+}
+
+#detail{
+ display: flex;
+padding: 75px 53px 0px 120px ;
+}
+#rightdetail{
+  width: 800px;
+  margin-left: 33px;
+}
+
+.related{
+  display: flex;
+  margin-bottom: 57px;
+  justify-content: space-between;
+}
+.card-images{
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+ 
+ #cart-img{
+ display: block;
+ }
+
+ .parentRelated h4{ 
+ margin: 22px 0px 40px 22px;
+ }
+
+ #btnpaginateleft{
+  position: relative;
+  top: 77px;
+ }
+@media (max-width: 576px) {
+  .parentRelated h4{ 
+    margin: 3px 0px 20px 42px;
+    }
+  #detail{
+    display: block;
+    padding: 0px ;
+   
+   }
+   #infos{
+    margin: "5px";
+   }
+   .card-images{
+    display: block;
+    width: 360px;
+    margin-top: 17px;
+    margin-left: 32px;
+   }
+  #rightdetail{
+    width: 370px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+  .related{
+    display: block;
+    margin: 0px;
+  }
+  #monCart{
+    margin: 40px 0px 0px 60px;
+  }
+  #btnpaginateleft{
+  
+  left: 137px;
+  top: 22px;
+  }
+  #btnpaginateright{
+    position: relative;
+    left: 140px;
+    bottom: 50px;
+  }
+  #cart-img{
+margin: 20px 20px;   
+flex-wrap: wrap; 
+  }
+  #leftDetail{
+    margin-top: 35px;
+   
+  }
+  #imageDetail{
+    width: 370px;
+    margin: 20px 0px 0px 30px;
+  }
+  
+  #avatar{
+    display: inline;
+    border-radius: 50%;
+    margin: 2px 25px 4px 13px;
+    width: 77px;
+    height: 77px;
+  }
+
+}
+
+

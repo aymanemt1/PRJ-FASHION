@@ -1,0 +1,84 @@
+
+.pagination {
+    font-family: Arial, sans-serif;
+    padding: 4px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none; 
+    cursor: pointer;
+  }
+  
+  .pagination:focus {
+    box-shadow: 0 0 5px rgb(123, 31, 162);
+  }
+  
+  .pagination option.active {
+    background-color: rgb(123, 31, 162);
+    color: #fff;
+  }
+  
+  #headShop{
+  display:flex;
+  justify-content:space-between;
+  width:72%;
+  }
+ #shop{
+  justify-content:space-between;
+  display:flex;
+ width: 100%;
+ margin-bottom: 50px;
+
+}
+#headShop h6{
+ color:black;
+ opacity: 70%;
+ padding:10px 0px 0px 90px;
+  }
+
+  .filter{
+    margin:47px 55px 0 0;
+  }
+
+
+.isVisible{
+  display: none;
+}
+@media (max-width: 576px) {
+  .isVisible{
+    display: block;
+  }
+  
+    #headShop{
+      display: block;
+      flex-wrap: wrap;
+      margin-right: 0;
+       
+      }
+      .paginateshop{
+        margin-top: 30px;
+        margin-left: 90px;
+        margin-right: 0;
+      width: 300px;
+
+      }
+      #headShop h6{
+       margin: 0px 0px 20px 10px;
+         width: 300px;
+         }
+      #shop{
+        display:block;
+        margin-right: 0;
+      
+        }
+        .filter{
+          margin:40px 0px 20px 55px ;
+        }
+        #parent{
+          margin-left: 5px;
+          margin-right: 24px;
+        }
+       
+  }

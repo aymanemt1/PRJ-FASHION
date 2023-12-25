@@ -1,0 +1,141 @@
+
+/* MAIN */
+
+a{
+    transition:all .3s ease 0s;
+  }
+
+   #title-products:hover{
+    color:rgb(123, 31, 162);
+    border-bottom:2px solid rgb(123, 31, 162);
+    }
+  
+    @keyframes example {
+  from {top: 150px;left:80px;}
+  to {top: 500px; background-color:rgb(123, 31, 162);}
+  }
+    @keyframes example2 {
+  from {top: 200px;left:280px}
+  to {top: 520px; background-color: rgb(123, 31, 162);}
+  }
+
+  .btnmain{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(123, 31, 162);
+    border-radius: 6px;
+    padding: 4px 2px;
+    width: 130px;
+    margin: 10px 5px;
+
+  }
+  .btnmain:hover{
+    background-color:rgb(123, 31, 162);
+    color: white;
+    border-radius: 6px;
+    width: 130px;
+    margin: 10px 5px;
+
+  }
+
+.main{
+  justify-content: space-between;
+  display: flex;
+  width: 75%;
+  margin:0px;
+  margin-left: 0;
+  border-bottom-right-radius: 52%;
+}
+.main{
+  justify-content: space-between;
+  display: flex;
+  width: 75%;
+  margin:0px;
+  margin-left: 0;
+  border-bottom-right-radius: 52%;
+}
+
+.leftMain{
+   margin: 100px 35px 0px 100px;
+   width: 40%;
+}
+.leftMain h1{
+  width: 470px;
+   font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 88px;
+}
+
+.para{
+ width: 400px;
+ margin-top: 20px;
+}
+.rightMain{
+   width: 60%;
+   margin-left: 30px;
+   justify-content: end;
+}
+.rightMain img{
+ 
+    margin: 40px 0px 0px 180px;
+     border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+     border-top-left-radius: 44%;
+    border-top-right-radius: 44%
+}
+
+.spantext{
+  
+  color: rgb(123, 31, 162);
+   margin-right: 16px;
+  border: 2px solid rgb(123, 31, 162);
+   padding: 0px 10px;
+  transform: rotate(45deg);
+ letter-spacing: 3px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px
+  
+}
+
+@media (max-width: 576px) {
+    .main{
+     display: block;
+     flex-wrap: wrap;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+    }
+   
+    .leftMain{
+      width: 20%;
+      padding: 50px 0px 30px 70px;
+      margin: 0;
+   }
+   .leftMain h1{
+    width: 300px;
+     font-size: 55px;
+      letter-spacing: 2px;
+      line-height: 76px;
+  }
+   .para{
+    width: 260px;
+    margin-top: 0;
+  }
+  
+  .spantext{
+    
+    width: 200px;
+    font-size: 55px;
+  }
+
+   .rightMain{
+ width: 300px;
+    margin-left: 0px;
+ }
+  
+ .rightMain img{
+ 
+  margin: 20px 40px 10px 64px ;
+  width: 340px;
+}
+  }

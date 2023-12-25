@@ -1,0 +1,114 @@
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin:50px 0px ;
+    padding: 0px 40px;
+}
+
+.categories h3 {
+    color: rgb(123, 31, 162); 
+    text-align: center;
+    letter-spacing: 1px; 
+   
+  }
+
+
+.showText{
+    display: none;
+}
+
+
+#images .image:hover {
+    transform: scale(97%); 
+    opacity: 0.9; 
+    cursor: pointer;
+
+}
+#images .image:hover .button-51{
+    opacity: 0.8; 
+}
+
+.paraCat{
+  opacity: 0.8;
+  width: 680px;
+  margin-left: 270px;
+  text-align: center;
+}
+
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid rgb(123, 31, 162);
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  top: 244px;
+  left: 66px;
+  opacity: 0;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.button-51:before {
+ 
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+.button-51:hover:before {
+  background-color: rgb(123, 31, 162);
+ 
+}
+
+.catDetail{
+  padding: 70px 10px 0px 110px;
+  justify-content: center;
+  width:90%;
+}
+
+@media (max-width: 576px) {
+   .paraCat{
+    width: 280px;
+   margin:10px 80px;
+  
+  }
+  #images{
+    display: block;
+  }
+  .image{
+    margin: 30px 0px 20px 40px;
+
+  }
+  .button-51 {
+    padding: 16px 32px;
+  }
+  }
+
+
