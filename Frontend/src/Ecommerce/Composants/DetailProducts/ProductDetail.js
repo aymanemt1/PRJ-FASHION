@@ -85,7 +85,7 @@ console.log(props.res.name)
   const ClickableStyle = isReserved ? 'btnCart' :"btnCartHidden";
 
 
-const imgSrc = `../../../images/shop/${res.image}`
+const imgSrc = `images/shop/${res.image}`
   return (
     <div  >
       <div style={{ boxShadow: "0 4px 6px 0 rgba(0,0,0,0.2)" }}>

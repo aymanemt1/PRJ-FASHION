@@ -38,7 +38,7 @@ export const RelatedProd = (props) => {
                 
               <div className="text-center">
                 <Link to={`/product-detail/${prodCat.id}`} onClick={() => handleClick(prodCat.id)} >
-                  <img src={`../../../images/shop/${prodCat.image}`} className="w-100 card-img-top image-hover p-2" style={{ borderRadius: 17 }} alt="Image" />
+                  <img src={`images/shop/${prodCat.image}`} className="w-100 card-img-top image-hover p-2" style={{ borderRadius: 17 }} alt="Image" />
                 </Link>
               </div>
               <div>
