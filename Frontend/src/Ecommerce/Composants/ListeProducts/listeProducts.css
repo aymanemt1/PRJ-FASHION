@@ -26,6 +26,14 @@
     
 }
 
+#parent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 96%;
+  margin-left: 3%;
+}
+
 .icon-overlay i {
     position: relative;
     bottom:1px;

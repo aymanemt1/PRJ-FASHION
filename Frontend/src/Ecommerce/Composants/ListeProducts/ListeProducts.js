@@ -128,7 +128,7 @@ export const ListeProducts = () => {
   
   </div>
 
-            <div id="parent" className="d-flex justify-content-evenly" style={{ flexWrap: "wrap" }}>
+            <div id="parent" >
                 {
                     filteredProducts.map((prod) => (
                         <div key={prod.id} data-aos="zoom-in-up" data-aos-duration="600" style={{...styleDark}} className={`card mt-5 ${modeBackground}`} >

@@ -112,7 +112,7 @@ const renderNavLinks = navLinks.map((link) => (
   <div style={{display:"flex"}}>
 
                <Link to='/' >
-                <img className='logo' src='../../../images/logo1.png' width="165px"  />
+                <img className='logo' src='images/logo1.png' width="165px"  />
                 </Link>
                
                 <IconButton className='btnOpen' onClick={toggleMenu}>

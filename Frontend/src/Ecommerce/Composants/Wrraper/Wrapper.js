@@ -89,7 +89,7 @@ const {auth,setAuth} =React.useContext(UserContext)
                                                        <img
                                                        style={{cursor:'pointer', borderRadius: '10px'}}
                                                        onClick={()=>handlRedirect(cart.prod_id)}
-                                                            src={`../../../images/shop/${cart.image}`}
+                                                            src={`images/shop/${cart.image}`}
                                                             alt="Image"
                                                             width="85px"
                                                           

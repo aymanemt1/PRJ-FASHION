@@ -29,7 +29,7 @@ const About = () => {
 
                 <div id='imgAbout'>
 
-                 <img src='../../../images/Cover2.jpg' width="310px" />
+                 <img src='images/Cover2.jpg' width="310px" />
                 </div>
             </div>
 

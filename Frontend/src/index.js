@@ -30,7 +30,7 @@ const root=ReactDOM.createRoot(element)
 
 const store =legacy_createStore(cartReducer)
 root.render(
-  <BrowserRouter >
+  <BrowserRouter basename='/PRJ-FASHION'>
 <Provider store={store}>
       <App  />
 </Provider>
